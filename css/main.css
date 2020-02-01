@@ -1,0 +1,84 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body, container_3 {
+  color: #333;
+  border: 3px dotted;
+  border-color: #000;
+  margin: auto;
+  padding: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  max-width: 800px;
+  text-align: center;
+  background: #F5E0C4;
+}
+
+#fav_coffee {
+  font-size: 45px;
+}
+
+#fill {
+  font-size: 32px;
+  font-family: 'Pacifico', cursive;
+}
+
+#container_2 {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.buttons, .table {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.middle {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+a {
+  color: #AB4B3D;
+  font-size: 20px;
+}
+
+.table {
+  background: #fff;
+}
+
+
+@media screen and (max-width: 750px) {
+  body, container_3 {
+    padding: .5rem .5rem;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h3, h2 {
+    font-size: 17px;
+  }
+
+  #fav_coffee {
+    font-size: 30px;
+  }
+
+  .middle {
+    font-size: 15px;
+  }
+}
